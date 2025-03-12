@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CMU Serif";
+  src: url("/fonts/cmunrm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CMU Serif";
+  src: url("/fonts/cmunbi.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html::-webkit-scrollbar {
+  width: 12px; 
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.8); 
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #cccccc; 
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  transition: all 1s ease;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #e2ccbf; 
+}
