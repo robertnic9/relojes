@@ -33,9 +33,8 @@ const WatchesSection = () => {
 
   return (
     <div className="bg-black text-white p-4 md:py-12 md:p-8">
-      {/* Mobile Layout */}
+      {/* Mobile */}
       <div className="md:hidden flex flex-col">
-        {/* Title Section - Above on mobile */}
         <div className="my-8 text-center">
           <h1 className="text-4xl font-raleway font-thin mb-4">
             NUESTROS
@@ -112,7 +111,7 @@ const WatchesSection = () => {
         </div>
       </div>
 
-      {/* Desktop Layout */}
+      {/* Pc */}
       <div className="hidden md:flex my-8">
         <div className="w-1/4 pr-8 mb-10">
           <h1 className="text-5xl font-raleway font-thin mb-4">
@@ -127,7 +126,7 @@ const WatchesSection = () => {
           </button>
         </div>
 
-        {/* Desktop Carousel - Right side */}
+        {/* Pc Carousel  */}
         <div className="w-3/4 relative">
           <div className="overflow-hidden">
             <div

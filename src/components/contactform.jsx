@@ -15,7 +15,7 @@ function ContacthtmlForm (){
             Nuestro experto esta experando, no dude en ponerse en contacto con
             nosotros. Para consultas exclusivas o asistencia personalizada.
           </p>
-          <htmlForm className="space-y-6">
+          <form className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                 Nombre
@@ -85,7 +85,7 @@ function ContacthtmlForm (){
                 Enviar Mensaje
               </button>
             </div>
-          </htmlForm>
+          </form>
         </div>
       </section>
     );

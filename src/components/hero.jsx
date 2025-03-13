@@ -10,7 +10,6 @@ const HeroSection = ({
 }) => {
   return (
     <div className="relative w-full h-[90vh] overflow-hidden">
-      {/* Background Image */}
       <div
         className="absolute inset-0 w-full h-full"
         style={{
@@ -20,11 +19,8 @@ const HeroSection = ({
           backgroundRepeat: "no-repeat",
         }}
       >
-        {/* Overlay gradient for better text readability */}
         <div className="absolute inset-0 bg-black bg-opacity-30"></div>
       </div>
-
-      {/* Content */}
       <div className="relative h-full flex items-end pb-24 ">
         <div className="w-full max-w-6xl ">
           <div className="max-w-2xl text-center">
@@ -39,7 +35,6 @@ const HeroSection = ({
                 {year}
               </span>
             </h1>
-
             <a
               href={ctaLink}
               className="inline-flex items-center mt-8 text-white hover:text-gray-200 transition-colors duration-300"

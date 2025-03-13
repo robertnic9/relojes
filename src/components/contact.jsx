@@ -10,7 +10,6 @@ const ContactSection = ({
   return (
     <div className="w-full min-h-[90vh] bg-white py-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-40 p-4 md:p-8">
-        {/* Text Content */}
         <div className="w-full md:w-1/2 flex flex-col items-center text-center space-y-6 px-4">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-cmu tracking-wider leading-relaxed">
             {title}
@@ -27,8 +26,6 @@ const ContactSection = ({
             {buttonText}
           </a>
         </div>
-
-        {/* Image */}
         <div className="w-full md:w-1/2">
           <img
             src={image}

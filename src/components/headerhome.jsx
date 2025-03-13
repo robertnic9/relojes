@@ -36,7 +36,6 @@ const HeaderHome = () => {
             isScrolled ? "text-black" : "text-white"
           } md:flex`}
         >
-          {/* Desktop Links - Left Side */}
           <li className="m-10 my-auto hidden md:block">
             <a
               href="/watches"
@@ -51,7 +50,7 @@ const HeaderHome = () => {
             </a>
           </li>
 
-          {/* Logo - Center */}
+          {/* Logo centro */}
           <li className="flex-1">
             <a href="/">
               <img
@@ -66,7 +65,6 @@ const HeaderHome = () => {
             </a>
           </li>
 
-          {/* Mobile Menu Button */}
           <li className="md:hidden absolute right-4 top-8">
             <button
               onClick={toggleMenu}
@@ -76,7 +74,6 @@ const HeaderHome = () => {
             </button>
           </li>
 
-          {/* Desktop Links - Right Side */}
           <li className="m-10 my-auto hidden md:block">
             <a href="/contact" className="hover:text-gray-500 transition-colors">
               Contáctanos

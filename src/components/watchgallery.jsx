@@ -55,7 +55,6 @@ export default function WatchGallery() {
         ))}
       </div>
 
-      {/* Modal de detalles del reloj */}
       {selectedWatch && (
         <motion.div
           initial={{ opacity: 0 }}
@@ -88,7 +87,6 @@ export default function WatchGallery() {
                 </Carousel>
               </div>
 
-              {/* Detalles del reloj */}
               <div className="md:w-1/2 flex flex-col justify-center">
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">
                   {selectedWatch.brand}

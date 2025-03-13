@@ -5,7 +5,7 @@ const Museum = () => {
     <section className="flex flex-col md:flex-row items-center justify-between bg-black text-white md:px-20 pb-20">
       <div className="w-5/6">
         <Image
-          src="/media/museum.jpeg" // Asegúrate de reemplazar esto con la ruta correcta
+          src="/media/museum.jpeg" 
           alt="Galerie du Temps Vie Éternelle"
           width={900}
           height={700}
