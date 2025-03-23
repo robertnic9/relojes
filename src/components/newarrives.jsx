@@ -32,7 +32,7 @@ const WatchesSection = () => {
   };
 
   return (
-    <div className="bg-black text-white p-4 md:py-12 md:p-8">
+    <div id='newarrives'className="bg-black text-white p-4 md:py-12 md:p-8">
       {/* Mobile */}
       <div className="md:hidden flex flex-col">
         <div className="my-8 text-center">

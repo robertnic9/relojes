@@ -87,7 +87,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/ourstory" className="hover:underline ">
+                <a
+                  href="/ourstory"
+                  className="hover:underline cursor-not-allowed"
+                >
                   Nuestra filosofía
                 </a>
               </li>
@@ -106,7 +109,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#newarrives" className="hover:underline">
                   Últimas novedades
                 </a>
               </li>
@@ -125,17 +128,17 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2 column">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="" className="hover:underline cursor-not-allowed">
                   Garantía
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="" className="hover:underline cursor-not-allowed">
                   Reparación reloj
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="" className="hover:underline cursor-not-allowed">
                   Todos Los Servicios
                 </a>
               </li>

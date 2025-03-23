@@ -5,7 +5,7 @@ const ContactSection = ({
   title = "¿LE GUSTARÍA DESCUBRIR NUESTROS RELOJES EN PERSONA?",
   description = "Nuestro Servicio de Atención al Cliente está a su disposición tanto si tiene una consulta sobre un reloj como si desea concertar una cita en una de nuestras boutiques. Si tiene alguna duda, póngase en contacto con nosotros.",
   buttonText = "CONTACTO",
-  buttonLink = "#",
+  buttonLink = "/contact",
 }) => {
   return (
     <div className="w-full min-h-[90vh] bg-white py-8">

@@ -85,8 +85,9 @@ const ProductCard = ({ title, size, description, link, reverse, image }) => {
           {link && (
             <div className="mt-4 md:mt-6">
               <a
-                href={link}
-                className="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-200"
+                //href={link}
+                disabled={true}
+                className="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-200 cursor-not-allowed"
               >
                 <span className="mr-2">Descubre más</span>
                 <span>—</span>

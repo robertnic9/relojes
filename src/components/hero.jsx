@@ -6,7 +6,7 @@ const HeroSection = ({
   subtitle = "COLLECION DE",
   year = "2024",
   ctaText = "Descubre más",
-  ctaLink = "#",
+  ctaLink = "/watches",
 }) => {
   return (
     <div className="relative w-full h-[90vh] overflow-hidden">

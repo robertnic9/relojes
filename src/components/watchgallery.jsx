@@ -17,7 +17,7 @@ export default function WatchGallery() {
   );
 
   return (
-    <div className="md:p-6 w-full md:w-[80%] md:mx-auto mt-28 font-cmu">
+    <div className="md:p-6 w-full md:w-[80%] md:mx-auto my-28 font-cmu">
       <div className="relative w-full">
         <input
           type="text"

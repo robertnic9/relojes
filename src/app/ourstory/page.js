@@ -102,8 +102,7 @@ export default function OurStoryPage() {
                     muted
                     loop
                     src="/media/timeline.mp4"
-                  >
-                  </video>
+                  ></video>
                 </div>
                 <div className="space-y-5">
                   <img
@@ -188,7 +187,10 @@ export default function OurStoryPage() {
           />
 
           {/* Contenedor para la cita y el nombre */}
-          <div className="absolute inset-0 flex flex-col pb-20 justify-end items-start max-w-4xl px-8 md:px-16">
+          <div
+            id="ourphilosophy "
+            className="absolute inset-0 flex flex-col pb-20 justify-end items-start max-w-4xl px-8 md:px-16"
+          >
             {/* Cita La vie Éternelle */}
             <blockquote className="text-white text-lg md:text-2xl font-light leading-relaxed mb-6 max-w-2xl">
               "La excelencia no es un acto, sino un hábito. Con los mejores
